@@ -17,6 +17,7 @@
                 method="signIn">
             <result name="success">/WEB-INF/jsp/catalog/Main.jsp</result>
             <result name="failed">/WEB-INF/jsp/account/SigninForm.jsp</result>
+            <result name="input">/WEB-INF/jsp/account/SigninForm.jsp</result>
         </action>
         <action name="signinForm"
                 class="web.action.MainAction"

@@ -7,106 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a743456c-33b6-4f57-9d34-0a738efe006c" name="Default Changelist" comment="实现了登录Action以及MyBatis后端架构">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/OperationLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/AccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/CategoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/ItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/LineItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/LogDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/SessionFactoryUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/action/AccountAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/action/MainAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/AccountMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/ItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/LineItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/SequenceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Log/Log.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/EditAccountForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/SigninForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cart/refresh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/catalog/Category.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/catalog/Item.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/catalog/Main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/catalog/Product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/catalog/SearchProducts.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/Error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/IncludeBottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/ListOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/ShippingForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/ViewOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/jpetstore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_birds.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_cats.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_reptiles.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bird1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bird2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/birds_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cat1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cat2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cats_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dog1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dog2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dog3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dog4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dog5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dog6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dogs_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/fish1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/fish2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/fish3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/fish4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/fish_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lizard1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo-topbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/poweredby.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/reptiles_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/separator.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sm_birds.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sm_cats.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sm_dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sm_fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sm_reptiles.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/snake1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/splash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/JpetStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/action/AccountAction-signIn-validation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/action/AccountAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/action/AccountAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/SigninForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/SigninForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JpetStore.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JpetStore/WEB-INF/classes/web/action/AccountAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JpetStore/WEB-INF/classes/web/action/AccountAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/action/AccountAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/action/AccountAction.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/action/AccountAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="187">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,11 +38,74 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/action/AccountAction-signIn-validation.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="77" lean-forward="true" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+            <state relative-caret-position="504">
+              <caret line="137" column="10" lean-forward="true" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/SigninForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/IncludeTop.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -189,11 +160,12 @@
         <option value="$PROJECT_DIR$/src/main/java/web/action/MainAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/catalog/Main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/SigninForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/JpetStore.js" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/AccountMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/IncludeTop.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/SigninForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/web/action/AccountAction-signIn-validation.xml" />
         <option value="$PROJECT_DIR$/src/main/java/web/action/AccountAction.java" />
       </list>
     </option>
@@ -213,10 +185,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="2" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,17 +218,84 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JpetStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JpetStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JpetStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JpetStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JpetStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JpetStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JpetStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JpetStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JpetStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JpetStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JpetStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JpetStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JpetStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JpetStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JpetStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JpetStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559961213764" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559995781637" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -409,17 +446,29 @@
       <workItem from="1559271444251" duration="3381000" />
       <workItem from="1559357498881" duration="3704000" />
       <workItem from="1559374536782" duration="3485000" />
-      <workItem from="1559960953757" duration="258000" />
+      <workItem from="1559960953757" duration="1648000" />
+      <workItem from="1559982584179" duration="764000" />
+      <workItem from="1559984934488" duration="4820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25558000" />
+    <option name="totallyTimeSpent" value="32532000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17225201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -429,11 +478,11 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36916548" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36827195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46676096" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -473,12 +522,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/OperationLog.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Log.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Item.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -627,20 +670,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/catalog/Item.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -662,13 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -717,16 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/SigninForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -751,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/IncludeTop.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="80" column="48" lean-forward="true" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/action/MainAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -765,20 +770,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/action/AccountAction.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="137" column="10" lean-forward="true" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        <state relative-caret-position="69">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/IncludeTop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="77" lean-forward="true" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/action/AccountAction-signIn-validation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account/SigninForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/action/AccountAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
